@@ -1,0 +1,271 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+#features{
+   text-align: center;
+}
+
+#features img{
+   margin: 0 0 20px;
+   width: 200px;
+   height: 200px;
+}
+
+footer{
+   background: #333;
+   color: #eee;
+   font-size: 11px;
+   padding: 20px;
+}
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+body {
+   -webkit-font-smoothing: antialiased;
+   text-rendering: optimizelegibility;
+}
+
+.well .page-header {
+   margin-top: 0;
+}
+
+.well .page-header h1 {
+   margin-top: 0;
+}
+
+ul.unstyled {
+   list-style: none;
+   padding: 0;
+}
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+ .navbar{
+   border: 2px solid black;
+   border-radius: 10px;
+ }
+ .navbar-brand img{
+   width: 125px;
+   height: 105px;
+}
+
+.collapse ul li{
+   padding-right: 5px;
+   font-size: 18px;
+   padding-top: 30px;
+   font-family: Acme,cursive;
+}
+
+#searchInput{
+   width: 200px;
+   font-family: Acme,cursive;
+}
+
+.navbar-form{
+   /*padding-top: 30px;*/
+   margin-top:  35px;
+}
+
+   
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+#myCarousel{
+   margin-top: 20px;
+}
+
+#myCarousel .item{
+   height: 400px;
+   
+}
+
+#slide1 {
+   background: url("../../images/train_med.jpeg") top center no-repeat;
+      
+}
+
+#slide2 {
+   background: url("../../images/supp_med.jpeg") top center no-repeat;
+      
+}
+
+#slide3 {
+   background: url("../../images/comm_med.jpeg") top center no-repeat;
+      
+}
+
+h4{
+   font-size: 100px;
+   font-family: Acme,cursive;
+   text-align: center;
+}
+
+.carousel-caption{
+   font-size: 30px;
+   font-family: Acme, cursive; 
+   text-decoration: overline;
+}  
+
+.row .alert{
+   border-radius: 20px;
+   border: 5px solid black;
+   margin-top: 20px;
+   background-color: white;
+   color: red;
+}
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+#bigCallout{
+   margin-top: 150px;
+}
+
+#featuresHeading.row p{
+   text-align: center;
+   font-size: 20px;
+   font-family: Acme;
+   color: black;   
+}
+
+.well{
+   margin: 20px 0;
+   background-color: #DAF9F2;
+   border-radius: 20px;
+}
+
+.well h1{
+   text-decoration: underline;
+   font-family: Acme;
+}
+
+.alert{
+   margin-top: 20px;
+   display: none;
+}
+h3{
+   font-family: Acme;
+   color: Red;
+}
+
+.row h2{
+   font-family: Acme;
+   text-decoration: underline;
+   margin-left: 20px;
+}
+
+#tab1 h4{
+   font-size: 20px;
+   float: left;
+}
+
+#tab1 p{
+   float: left;
+   text-align: left;
+}
+
+#tab2 h4{
+   font-size: 20px;
+   text-align: justify;
+}
+
+#tab2 img{
+   width: 140px;
+   height: 140px;
+}
+
+.list-group h4{
+   font-size: 20px;
+   text-align: left; 
+}
+
+.list-group p{
+   font-size: 15px;
+   text-align: justify;
+}
+
+footer .row p{
+   font-size: 10px;
+}
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+/*@media (max-width: 480px) {
+
+}*/
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+   
+   #myCarousel .item{
+      height: 310px;
+         
+      }
+
+      #slide1 {
+         background: url("../../images/train_small.jpeg") top center no-repeat;
+            
+      }
+
+      #slide2 {
+         background: url("../../images/supp_small.jpeg") top center no-repeat;
+            
+      }
+
+      #slide3 {
+         background: url("../../images/comm_small.jpeg") top center no-repeat;
+            
+      }
+
+      .carousel-caption{
+         font-size: 16px;
+      }
+
+      .carousel-caption h4{
+         font-size: 22px;
+      }
+   
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+      #myCarousel .item{
+      height: 500px;
+         
+      }
+
+      #slide1 {
+         background: url("../../images/train_large.jpeg") top center no-repeat;
+            
+      }
+
+      #slide2 {
+         background: url("../../images/supp_large.jpeg") top center no-repeat;
+            
+      }
+
+      #slide3 {
+         background: url("../../images/comm_large.jpeg") top center no-repeat;
+            
+      }
+
+}
